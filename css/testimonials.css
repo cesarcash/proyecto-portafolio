@@ -1,0 +1,31 @@
+.testimonials {
+    background: rgba(255, 255, 255, .2);
+    padding-inline: 24px;
+    padding-block: 24px;
+    text-align: center;
+    border-radius: 24px;
+    backdrop-filter: blur(39.7657px);
+}
+
+.testimonials div {
+    /* background: white; */
+} 
+
+.testimonials img {
+    padding-block-end: 24px;
+}
+
+.testimonials p {
+    margin: 0;
+}
+
+.testimonials p:nth-of-type(1) {
+    padding-block-end: 24px;
+    color: var(--purple);
+    font: var(--button);
+}
+
+.testimonials p:nth-of-type(2){
+    font: var(--caption);
+    color: var(--purple);
+}
