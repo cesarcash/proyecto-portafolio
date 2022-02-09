@@ -8,15 +8,16 @@
     padding-block-end: 16px;
 }
 
+.hero-image img {
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
 .hero-description {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
-
-.hero-social {
-    padding-block-end: 24px;
-}   
 
 .hero h1 {
     font: var(--headLine3);

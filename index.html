@@ -13,23 +13,28 @@
 </head>
 <body>
 
+    <header class="header" >
+        <div class="wrapper">
+            <div class="header-content">
+                <img src="./images/logo.png" alt="Logotipo portafolio Jaume" width="70" height="20">
+        
+                <nav class="menu" aria-label="main-navigation">
+                    <ul>
+                        <li><a class="is-active" href="#home">Hola</a></li>
+                        <li><a href="#projects">Proyectos</a></li>
+                        <li><a href="#contact">Hablemos</a></li>
+                    </ul>
+                </nav>
+        
+                <button class="button">Currículum</button>
+            </div>
+        </div>
+    </header>
+
     <div class="wrapper">
 
-        <header class="header">
-            <img src="./images/logo.png" alt="Logotipo portafolio Jaume" width="70" height="20">
 
-            <nav class="menu">
-                <ul>
-                    <li><a class="is-active" href="#home">Hola</a></li>
-                    <li><a href="#projects">Proyectos</a></li>
-                    <li><a href="#contact">Hablemos</a></li>
-                </ul>
-            </nav>
-
-            <button class="button">Currículum</button>
-        </header>
-
-        <section class="hero">
+        <section class="hero" aria-label="main" id="home">
             <div class="hero-image">
                 <img src="./images/user.png" alt="Jaume" width="328" height="330">
             </div>
@@ -39,7 +44,7 @@
                     <span>Soy Jaume</span>
                 </h1>
                 <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
-                <div class="hero-social">
+                <div class="social">
                     <a href="tel:2255665544" class="button-icon"><img src="./icons/icon-phone.svg" alt="Icono teléfono"></a>
                     <a href="#" class="button-icon"><img src="./icons/icon-important_mail.svg" alt="Icono email"></a>
                     <a href="#" class="button-icon"><img src="./icons/icon-instagram.svg" alt="Icono instagram"></a>
@@ -49,23 +54,123 @@
             </div>
         </section>
 
-        <div class="intro">
+        <div class="intro" >
             <div>
                 <p>A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles</p>
                 <p>Aquí hay algunos que me gustaría compartir.</p>
                 <img src="./icons/icons-down.svg" alt="flechita" width="60" height="40">
             </div>
+        </div>        
+
+        <div class="project" id="projects">
+            <div class="project-image">
+                <img src="./images/leonidasesteban.png" alt="Proyecto leonidasesteban.com">
+            </div>
+            <div class="project-description">
+                <a class="title" href="https:leonidasesteban.com" target="_blank">LeonidasEsteban.com</a>
+                <p>Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como desarrollador Front-End.</p>
+                <a href="#" class="button">ver proyecto</a>
+                <a href="#" class="button is-secondary">ver codigo</a>
+            </div>
         </div>
 
         <div class="testimonials">
-            <div>
-                <img src="./images/user-1.png" alt="Usuario 1" width="64" height="64">
+            <div class="testimonials-content">
+                <div class="testimonials-image">
+                    <img src="./images/user-1.png" alt="Usuario 1" >
+                </div>
                 <p>"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses ".</p>
                 <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
             </div>
         </div>
 
+        <div class="project">
+            <div class="project-image">
+                <img src="./images/marvol.png" alt="Proyecto leonidasesteban.com">
+            </div>
+            <div class="project-description">
+                <a class="title" href="https:leonidasesteban.com" target="_blank">LeonidasEsteban.com</a>
+                <p>Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como desarrollador Front-End.</p>
+                <a href="#" class="button">ver proyecto</a>
+                <a href="#" class="button is-secondary">ver codigo</a>
+            </div>
+        </div>
+
+        <div class="testimonials">
+            <div class="testimonials-content">
+                <div class="testimonials-image">
+                    <img src="./images/user-1.png" alt="Usuario 1" >
+                </div>
+                <p>"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses ".</p>
+                <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-image">
+                <img src="./images/netnet.png" alt="Proyecto leonidasesteban.com">
+            </div>
+            <div class="project-description">
+                <a class="title" href="https:leonidasesteban.com" target="_blank">LeonidasEsteban.com</a>
+                <p>Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como desarrollador Front-End.</p>
+                <a href="#" class="button">ver proyecto</a>
+                <a href="#" class="button is-secondary">ver codigo</a>
+            </div>
+        </div>
+
+        <div class="testimonials">
+            <div class="testimonials-content">
+                <div class="testimonials-image">
+                    <img src="./images/user-1.png" alt="Usuario 1" >
+                </div>
+                <p>"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses ".</p>
+                <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+            </div>
+        </div>
+
+        <form action="" class="form" id="contact">
+            <div class="form-content">
+                <h2 class="title">Hablemos</h2>
+                <p>
+                    Si está interesado en trabajar conmigo en su próximo proyecto, 
+                    no dude en ponerse en contacto conmigo.
+                </p>
+                <label for="form-name">
+                    Nombre completo
+                    <input type="text" id="form-name" name="nombre" placeholder="Juan">
+                </label>
+                <label for="form-email">
+                    Correo electrónico
+                    <input type="email" id="form-email" name="email" placeholder="juan@algo.com">
+                </label>
+                <label for="form-message">
+                    Mensaje
+                    <textarea name="mensaje" id="form-message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                </label>
+                <button type="submit" class="button">enviar Mensaje</button>
+            </div>
+        </form>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./images/logo.png" alt="Logotipo portafolio Jaume" width="70" height="20">
+                </div>
+                <div class="social">
+                    <a href="tel:2255665544" class="button-icon"><img src="./icons/icon-phone.svg" alt="Icono teléfono"></a>
+                    <a href="#" class="button-icon"><img src="./icons/icon-important_mail.svg" alt="Icono email"></a>
+                    <a href="#" class="button-icon"><img src="./icons/icon-instagram.svg" alt="Icono instagram"></a>
+                    <a href="#" class="button-icon"><img src="./icons/icon-twitter_squared.svg" alt="Icono twitter"></a>
+                </div>        
+                <div class="footer-copyright">
+                    <p>Hecho con el &#10084; por Jaume. </p> 
+                    <p>Copyright 2021 - Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </footer>
+
     </div>
+
 
 </body>
 </html>

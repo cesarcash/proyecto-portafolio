@@ -5,7 +5,12 @@
 @import './wrapper.css';
 @import './menu.css';
 @import './intro.css';
+@import './project.css';
 @import './testimonials.css';
+@import './social.css';
+@import './footer.css';
+@import './form.css';
+@import './title.css';
 
 :root {
     font-size: 16px;
@@ -23,6 +28,7 @@
     --purple: #310A90;
     --green: #42E2B8;
     --white: #fff;
+    scroll-behavior: smooth;
 }
 
 body {

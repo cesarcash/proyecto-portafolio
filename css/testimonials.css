@@ -2,17 +2,25 @@
     background: rgba(255, 255, 255, .2);
     padding-inline: 24px;
     padding-block: 24px;
-    text-align: center;
     border-radius: 24px;
     backdrop-filter: blur(39.7657px);
+    margin-block: 40px;
 }
 
-.testimonials div {
-    /* background: white; */
+.testimonials-content {
+    max-inline-size: 970px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    text-align: center;
 } 
 
 .testimonials img {
-    padding-block-end: 24px;
+    inline-size: 64px;
+    aspect-ratio: 1/1;
+    margin: auto;
 }
 
 .testimonials p {
@@ -20,12 +28,20 @@
 }
 
 .testimonials p:nth-of-type(1) {
-    padding-block-end: 24px;
     color: var(--purple);
-    font: var(--button);
+    font: var(--headLine4);
 }
 
 .testimonials p:nth-of-type(2){
-    font: var(--caption);
-    color: var(--purple);
+    font: var(--headLine5);
+    color: rgba(49,10,144,.5);
+}
+
+@media screen and (min-width: 768px){
+    .testimonials {
+        margin-block: 80px;
+    }
+    .testimonials img {
+        inline-size: 80px;
+    }
 }
